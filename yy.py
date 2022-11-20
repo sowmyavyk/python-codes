@@ -1,0 +1,13 @@
+section_1={
+    "sowmya",
+    "divya",
+    "deepika"
+}
+section_2={
+    'harika',
+    "sowmya"
+}
+print(section_1.union(section_2))
+print(section_2.intersection(section_1))
+print(section_1.symmetric_difference(section_2))
+print(section_1.difference(section_2))
